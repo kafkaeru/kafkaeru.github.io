@@ -1,0 +1,60 @@
+body {
+	font-family: Meiryo;
+	background-color: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+.header {
+	background-color: #bbd4dc;
+	height: 600px;
+}
+
+.header-logo {
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	height: 50px;
+	padding: 20px 20px;
+
+}
+
+.header img {
+	height: 100px;
+	padding-top:100px;
+	padding-left:300px;
+}
+
+.main {
+	height: 200px;
+	background-color: bisque;
+}
+
+.main-logo {
+	color: black;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.main-list li {
+	float: left;
+	padding-left: 150px;
+	color: rgb(134, 187, 169);
+	font-size: 20px
+}
+
+.footer {
+	height: 100px;
+	background-color: rgb(201, 176, 176);
+}
+
+.footer-list li {
+	font-size: 20px;
+	float: left;
+}
+
+.footer-logo {
+	font-size: 15px;
+	float: right;
+}
