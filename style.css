@@ -22,8 +22,8 @@ li {
 
 .header img {
 	height: 100px;
-	padding-top:100px;
-	padding-left:300px;
+	padding-top: 100px;
+	padding-left: 300px;
 }
 
 .main {
@@ -59,3 +59,11 @@ li {
 	font-size: 15px;
 	float: right;
 }
+
+@media screen and (max-width:960px) {
+	.header-logo {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:480px) {}
