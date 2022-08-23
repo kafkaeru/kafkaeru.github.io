@@ -4,7 +4,7 @@ body {
 }
 
 body {
-	font-family: Meiryo;
+	font-family: "Meiryo";
 	background-color: #fff;
 }
 
@@ -34,8 +34,8 @@ li {
 }
 
 .main {
-	height: 230%;
-	background-color: ;
+	height: 250%;
+	background-color: #fff;
 }
 
 #dropmenu {
@@ -117,28 +117,21 @@ li {
 	border-radius: 0 0 3px 3px;
 }
 
-.main-logo2{
-	font-size: 20px;
-	margin-left: 35%;
+.main-logo2 {
+	font-size: 27px;
+	margin-left: 20%;
 	margin-top: 5%;
 }
 
 .nikki {
 	font-size: 15px;
-	margin-left: 35%;
+	margin-left: 20%;
+	margin-right: 10%;
+	line-height: 50px;
 }
 
 .footer {
-	height: 10%;
 	background-color: rgb(201, 176, 176);
-}
-
-.footer-list li {
-	font-size: 20px;
-	float: left;
-}
-
-.footer-logo {
-	font-size: 15px;
-	float: right;
+	position: relative;
+	width: 100%;
 }
