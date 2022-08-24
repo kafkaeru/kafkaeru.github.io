@@ -1,15 +1,20 @@
 html,
 body {
-	height: 100%;
-}
-
-body {
 	font-family: "Meiryo";
 	background-color: #fff;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+
 }
+
 
 li {
 	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 .header {
@@ -36,6 +41,7 @@ li {
 .main {
 	height: 250%;
 	background-color: #fff;
+	flex: 1;
 }
 
 #dropmenu {
@@ -117,10 +123,12 @@ li {
 	border-radius: 0 0 3px 3px;
 }
 
-.main-logo2 {
+/*nikki style*/
+.nikki-logo {
 	font-size: 27px;
 	margin-left: 20%;
 	margin-top: 5%;
+
 }
 
 .nikki {
@@ -130,8 +138,50 @@ li {
 	line-height: 50px;
 }
 
-.footer {
-	background-color: rgb(201, 176, 176);
-	position: relative;
-	width: 100%;
+.MovePrePage a {
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 1%;
+	font-size: 17px;
+	color: #fff;
+	background-color: rgb(134, 187, 169);
+	border-radius: 50px 3px 3px 50px;
+}
+
+.MoveNexPage a {
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+	padding: 1%;
+	font-size: 17px;
+	color: #fff;
+	background-color: rgb(134, 187, 169);
+	border-radius: 3px 50px 50px 3px;
+}
+
+.fMovePrePage a {
+	float: left;
+	margin-left: 5%;
+	padding: 1%;
+	font-size: 17px;
+	color: #fff;
+	background-color: rgb(134, 187, 169);
+	border-radius: 50px 3px 3px 50px;
+}
+
+.fMoveNexPage a {
+	float: right;
+	margin-right: 5%;
+	padding: 1%;
+	font-size: 17px;
+	color: #fff;
+	background-color: rgb(134, 187, 169);
+	border-radius: 3px 50px 50px 3px;
+}
+
+/*footer-style*/
+.footer{
+	margin-top: 5%;
+	margin-bottom: 3%;
 }
