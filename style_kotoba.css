@@ -44,14 +44,13 @@ a {
 	flex: 1;
 }
 
+/*dropmenu style*/
+/*style of the main menu*/
 #dropmenu {
 	list-style-type: none;
-	width: 40%;
-	height: 6%;
+	width: 50%;
 	margin-top: 5%;
 	margin-left: 30%;
-	background: #bbd4dc;
-	border-radius: 5px;
 }
 
 #dropmenu li {
@@ -65,28 +64,21 @@ a {
 	display: block;
 	padding: 15px 0px 11px 10px;
 	margin: 0px;
+	background: #bbd4dc;
 	color: #fff;
 	font-size: 18px;
 	line-height: 1;
 	text-decoration: none;
+	border-radius: 10px;
 }
 
-#dropmenu li:hover>a {
-	background: #bbd4dc;
-	color: #ffffff;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #ffffff;
-	border-radius: 5px 5px 0 0;
-}
-
+/*style of the sub menu*/
 #dropmenu li ul {
-	list-style: none;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	margin: 0;
 	padding: 0;
-	border-radius: 0 0 5px 5px;
 }
 
 #dropmenu li ul li {
@@ -105,6 +97,23 @@ a {
 	font-weight: normal;
 }
 
+/*action against touching the main menu*/
+#dropmenu li:hover a {
+	background: #bbd4dc;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+/*only li of main menu should change the color by ">" (not li of sub menu) */
+#dropmenu li:hover > a{
+	background-color: #acc3ca;
+}
+
+/*action against touching the sub menu*/
+#dropmenu li ul li:hover a{
+	background-color: #acc3ca;
+}
+
 #dropmenu li:hover ul li {
 	overflow: visible;
 	height: 38px;
@@ -120,7 +129,7 @@ a {
 }
 
 #dropmenu li:hover ul li:last-child a {
-	border-radius: 0 0 3px 3px;
+	border-radius: 10px;
 }
 
 /*nikki style*/
@@ -181,7 +190,7 @@ a {
 }
 
 /*footer-style*/
-.footer{
+.footer {
 	margin-top: 5%;
 	margin-bottom: 3%;
 }
