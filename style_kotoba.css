@@ -5,9 +5,7 @@ body {
 	display: flex;
 	flex-flow: column;
 	min-height: 100vh;
-
 }
-
 
 li {
 	list-style: none;
@@ -147,14 +145,21 @@ a {
 	line-height: 50px;
 }
 
+#MovePage a{
+	background-color: rgb(134, 187, 169);
+	padding: 1%;
+	font-size: 17px;
+	color: #fff;
+}
+
+#MovePage a:hover {
+	background-color: rgb(100, 187, 169);
+}
+
 .MovePrePage a {
 	float: left;
 	margin-left: 5%;
 	margin-top: 5%;
-	padding: 1%;
-	font-size: 17px;
-	color: #fff;
-	background-color: rgb(134, 187, 169);
 	border-radius: 50px 3px 3px 50px;
 }
 
@@ -162,9 +167,6 @@ a {
 	float: right;
 	margin-right: 5%;
 	margin-top: 5%;
-	padding: 1%;
-	font-size: 17px;
-	color: #fff;
 	background-color: rgb(134, 187, 169);
 	border-radius: 3px 50px 50px 3px;
 }
@@ -172,9 +174,6 @@ a {
 .fMovePrePage a {
 	float: left;
 	margin-left: 5%;
-	padding: 1%;
-	font-size: 17px;
-	color: #fff;
 	background-color: rgb(134, 187, 169);
 	border-radius: 50px 3px 3px 50px;
 }
@@ -183,8 +182,6 @@ a {
 	float: right;
 	margin-right: 5%;
 	padding: 1%;
-	font-size: 17px;
-	color: #fff;
 	background-color: rgb(134, 187, 169);
 	border-radius: 3px 50px 50px 3px;
 }

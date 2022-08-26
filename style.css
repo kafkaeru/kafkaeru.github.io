@@ -1,15 +1,23 @@
+html,
 body {
-	font-family: Meiryo;
+	font-family: "Meiryo";
 	background-color: #fff;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
 }
 
 li {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	background-color: #bbd4dc;
-	height: 600px;
+	height: 70vh;
 }
 
 .header-logo {
@@ -27,7 +35,7 @@ li {
 }
 
 .main {
-	height: 200px;
+	height: 20vh;
 	background-color: bisque;
 }
 
@@ -38,7 +46,6 @@ li {
 }
 
 .main-list a {
-	text-decoration: none;
 	float: left;
 	padding-left: 150px;
 	color: rgb(134, 187, 169);
@@ -46,18 +53,8 @@ li {
 }
 
 .footer {
-	height: 100px;
+	height: 10vh;
 	background-color: rgb(201, 176, 176);
-}
-
-.footer-list li {
-	font-size: 20px;
-	float: left;
-}
-
-.footer-logo {
-	font-size: 15px;
-	float: right;
 }
 
 @media screen and (max-width:960px) {
