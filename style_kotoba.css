@@ -103,12 +103,12 @@ a {
 }
 
 /*only li of main menu should change the color by ">" (not li of sub menu) */
-#dropmenu li:hover > a{
+#dropmenu li:hover>a {
 	background-color: #acc3ca;
 }
 
 /*action against touching the sub menu*/
-#dropmenu li ul li:hover a{
+#dropmenu li ul li:hover a {
 	background-color: #acc3ca;
 }
 
@@ -145,7 +145,7 @@ a {
 	line-height: 50px;
 }
 
-#MovePage a{
+#MovePage a {
 	background-color: rgb(134, 187, 169);
 	padding: 1%;
 	font-size: 17px;
@@ -185,6 +185,25 @@ a {
 	background-color: rgb(134, 187, 169);
 	border-radius: 3px 50px 50px 3px;
 }
+
+/* style*/
+.LiveAndDie a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 20%;
+	margin-left: 15%;
+	padding: 1%;
+	width: 22%;
+	height: 3vh;
+	line-height: 1.8;
+	color: #fff;
+	background-color: #bbd4dc;
+	border-radius: 10px;
+	
+}
+
 
 /*footer-style*/
 .footer {
