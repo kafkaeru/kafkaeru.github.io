@@ -17,7 +17,7 @@ a {
 
 .header {
 	background-color: #bbd4dc;
-	height: 10%;
+	height: 10vh;
 }
 
 .header-logo {
@@ -37,7 +37,6 @@ a {
 }
 
 .main {
-	height: 250%;
 	background-color: #fff;
 	flex: 1;
 }
@@ -186,22 +185,53 @@ a {
 	border-radius: 3px 50px 50px 3px;
 }
 
-/* style*/
+/* LiveAndDie style*/
 .LiveAndDie a{
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
-	margin-top: 20%;
+	margin-top: 5%;
+	margin-left: 70%;
+	padding: 1%;
+	width: 22%;
+	line-height: 1.8;
+	color: #fff;
+	background-color: #c3dcbb;
+	border-radius: 10px;
+}
+
+/* repo style*/
+.repo a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 15%;
 	margin-left: 15%;
 	padding: 1%;
 	width: 22%;
-	height: 3vh;
 	line-height: 1.8;
 	color: #fff;
-	background-color: #bbd4dc;
+	background-color: #e4e595;
 	border-radius: 10px;
-	
+}
+
+
+/* net style*/
+.net a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 5%;
+	margin-left: 22%;
+	padding: 1%;
+	width: 30%;
+	line-height: 1.8;
+	color: #fff;
+	background-color: #bbc8dc;
+	border-radius: 10px;
 }
 
 
