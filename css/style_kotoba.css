@@ -186,7 +186,7 @@ a {
 }
 
 /* LiveAndDie style*/
-.LiveAndDie a{
+.LiveAndDie a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -201,8 +201,13 @@ a {
 	border-radius: 10px;
 }
 
+#dropmenu:hover+.LiveAndDie a{
+	background: #fff;
+	transition: 0.3s;
+}
+
 /* repo style*/
-.repo a{
+.repo a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -217,9 +222,13 @@ a {
 	border-radius: 10px;
 }
 
+#dropmenu:hover+.repo a{
+	background: #fff;
+	transition: 0.3s;
+}
 
 /* net style*/
-.net a{
+.net a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -234,6 +243,10 @@ a {
 	border-radius: 10px;
 }
 
+#dropmenu:hover+.net a{
+	background: #fff;
+	transition: 0.3s;
+}
 
 /*footer-style*/
 .footer {

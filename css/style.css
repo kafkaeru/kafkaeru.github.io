@@ -2,9 +2,8 @@ html,
 body {
 	font-family: "Meiryo";
 	background-color: #fff;
-	display: flex;
-	flex-flow: column;
 	min-height: 100vh;
+	margin: 0
 }
 
 li {
@@ -15,9 +14,10 @@ a {
 	text-decoration: none;
 }
 
+/*header style*/
 .header {
 	background-color: #bbd4dc;
-	height: 70vh;
+	height: 40vh;
 }
 
 .header-logo {
@@ -34,29 +34,41 @@ a {
 	padding-left: 300px;
 }
 
+/*main style*/
 .main {
-	height: 20vh;
-	background-color: bisque;
+	background-color: #bbd4dc;
+	height: 40vh;
 }
 
-.main-logo {
-	color: black;
-	font-size: 20px;
-	padding: 20px;
+.main-list li{
+	text-align: center;
 }
 
 .main-list a {
+	display: block;
 	float: left;
-	padding-left: 150px;
-	color: rgb(134, 187, 169);
-	font-size: 20px
+	color: #fff;
+	background-color: rgb(113, 184, 160);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 19px;
+	line-height: 2;
+	margin: 5% 12%;
+	padding: 1%;
 }
 
+.main-list li:hover a{
+	background: rgb(99, 161, 141);
+}
+
+/*footer style*/
 .footer {
-	height: 10vh;
-	background-color: rgb(201, 176, 176);
+	height: 20vh;
+	background-color: #bbd4dc;
 }
 
+/*mobile devive style*/
 @media screen and (max-width:960px) {
 	.header-logo {
 		width: 100%;
