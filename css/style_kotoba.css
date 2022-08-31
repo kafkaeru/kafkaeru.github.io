@@ -201,9 +201,8 @@ a {
 	border-radius: 10px;
 }
 
-#dropmenu:hover+.LiveAndDie a{
-	background: #fff;
-	transition: 0.3s;
+.LiveAndDie a:hover{
+	background-color: #baceb3;
 }
 
 /* repo style*/
@@ -218,13 +217,12 @@ a {
 	width: 22%;
 	line-height: 1.8;
 	color: #fff;
-	background-color: #e4e595;
+	background-color: #e6e791;
 	border-radius: 10px;
 }
 
-#dropmenu:hover+.repo a{
-	background: #fff;
-	transition: 0.3s;
+.repo a:hover{
+	background-color: #d0d189;
 }
 
 /* net style*/
@@ -243,7 +241,12 @@ a {
 	border-radius: 10px;
 }
 
-#dropmenu:hover+.net a{
+.net a:hover{
+	background-color: #a7b2c2
+}
+
+/* fadeout when hovering nikki */
+#dropmenu:hover+#others a{
 	background: #fff;
 	transition: 0.3s;
 }
