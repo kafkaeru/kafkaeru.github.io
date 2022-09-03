@@ -143,6 +143,15 @@ a {
 	line-height: 50px;
 }
 
+.nikki a {
+	color: rgb(97, 165, 142);
+	border-radius: 3px;
+}
+
+.nikki a:hover {
+	background-color: rgb(207, 171, 192);
+}
+
 #MovePage a {
 	background-color: rgb(134, 187, 169);
 	padding: 1%;
@@ -200,7 +209,7 @@ a {
 	border-radius: 10px;
 }
 
-.LiveAndDie a:hover{
+.LiveAndDie a:hover {
 	background-color: #baceb3;
 }
 
@@ -220,7 +229,7 @@ a {
 	border-radius: 10px;
 }
 
-.repo a:hover{
+.repo a:hover {
 	background-color: #d0d189;
 }
 
@@ -240,12 +249,12 @@ a {
 	border-radius: 10px;
 }
 
-.net a:hover{
+.net a:hover {
 	background-color: #a7b2c2
 }
 
 /* fadeout when hovering nikki */
-#dropmenu:hover+#others a{
+#dropmenu:hover+#others a {
 	background: #fff;
 	transition: 0.3s;
 }
