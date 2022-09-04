@@ -266,7 +266,7 @@ a {
 }
 
 /*mobile devive style*/
-@media screen and (max-width:420px) {
+@media (max-width:420px) {
 
 	.nikki img {
 		width: 100%;
