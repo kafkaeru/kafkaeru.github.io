@@ -18,23 +18,31 @@ a {
 
 .header {
 	background-color: #bbd4dc;
-	height: 10vh;
+	height: 16vh;
 }
 
 .header-logo {
 	font-size: 30px;
 	color: rgb(255, 255, 255);
 	height: 50px;
-	padding: 20px 20px;
-	float: left
+	padding: 5% 5% 2% 5%;
+	float: left;
+	width:100%;
 }
 
 .header-list a {
 	text-decoration: none;
-	float: right;
-	padding: 30px;
+	float: left;
+	margin: 0 10% 0 0;
 	color: rgb(134, 187, 169);
-	font-size: 20px
+	font-size: 20px;
+	text-align: center;
+	padding: 1%;
+}
+
+.header-list a:hover {
+	background-color: #fff;
+	border-radius: 10%;
 }
 
 .main {
@@ -267,6 +275,19 @@ a {
 
 /*mobile devive style*/
 @media screen and (max-width:420px) {
+	.nikki-logo {
+		font-size: 27px;
+		margin-left: 5%;
+		margin-top: 5%;
+
+	}
+
+	.nikki {
+		font-size: 14px;
+		margin-left: 5%;
+		margin-right: 5%;
+		line-height: 50px;
+	}
 
 	.nikki img {
 		width: 100%;
@@ -281,12 +302,20 @@ a {
 	}
 
 	.header {
-		height: 10vh;
+		height: 15vh;
+	}
+
+	.header-logo {
+		font-size: 30px;
+		color: rgb(255, 255, 255);
+		height: 50px;
+		padding: 0 5% 2% 5%;
+		width: 100%;
 	}
 
 	.header-list a {
 		color: rgb(134, 187, 169);
-		font-size: 20px
+		font-size: 25px;
 	}
 
 
