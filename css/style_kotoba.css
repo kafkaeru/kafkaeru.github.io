@@ -54,15 +54,15 @@ a {
 /*dropmenu style*/
 /*style of the main menu*/
 #dropmenu {
-	margin-top: 8%;
-	margin-left: 40%;
+	margin-top: 10%;
+	margin-left: 18%;
 }
 
 #dropmenu li {
 	position: relative;
 	float: left;
 	text-align: center;
-	width: 20%;
+	width: 40%;
 }
 
 #dropmenu li a {
@@ -111,12 +111,12 @@ a {
 
 /*only li of main menu should change the color by ">" (not li of sub menu) */
 #dropmenu li:hover>a {
-	background-color: #acc3ca;
+	background-color: #91d3e5;
 }
 
 /*action against touching the sub menu*/
 #dropmenu li ul li:hover a {
-	background-color: #acc3ca;
+	background-color: #91d3e5;
 }
 
 #dropmenu li:hover ul li {
@@ -202,36 +202,37 @@ a {
 	border-radius: 3px 50px 50px 3px;
 }
 
-/* LiveAndDie style*/
-.LiveAndDie a {
+/* monogatari style */
+.monogatari a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
-	margin-top: 5%;
-	margin-left: 70%;
+	margin-top: 25%;
+	margin-left: 35%;
 	padding: 1%;
-	width: 22%;
+	width: 30%;
 	line-height: 1.8;
 	color: #fff;
-	background-color: #c3dcbb;
+	background-color: #e79ad0;
 	border-radius: 10px;
 }
 
-.LiveAndDie a:hover {
-	background-color: #baceb3;
+.monogatari a:hover {
+	background-color: #ee88cf;
 }
 
-/* repo style*/
+
+/* repo style */
 .repo a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
-	margin-top: 18%;
+	margin-top: 10%;
 	margin-left: 15%;
 	padding: 1%;
-	width: 22%;
+	width: 30%;
 	line-height: 1.8;
 	color: #fff;
 	background-color: #e6e791;
@@ -239,17 +240,38 @@ a {
 }
 
 .repo a:hover {
-	background-color: #d0d189;
+	background-color: #e2e470;
 }
 
-/* net style*/
+/* LiveAndDie style */
+.LiveAndDie a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 5%;
+	margin-left: 55%;
+	padding: 1%;
+	width: 30%;
+	line-height: 1.8;
+	color: #fff;
+	background-color: #c3dcbb;
+	border-radius: 10px;
+}
+
+.LiveAndDie a:hover {
+	background-color: #a2da8d;
+}
+
+
+/* net style */
 .net a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
 	margin-top: 5%;
-	margin-left: 22%;
+	margin-left: 15%;
 	padding: 1%;
 	width: 30%;
 	line-height: 1.8;
@@ -259,7 +281,7 @@ a {
 }
 
 .net a:hover {
-	background-color: #a7b2c2
+	background-color: #8caddf
 }
 
 /* fadeout when hovering nikki */
@@ -275,6 +297,7 @@ a {
 }
 
 /*mobile devive style*/
+/*phone*/
 @media screen and (max-width:420px) {
 	.nikki-logo {
 		font-size: 27px;
@@ -310,5 +333,75 @@ a {
 		font-size: 25px;
 	}
 
+	#dropmenu {
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#dropmenu li {
+		width: 50%;
+	}
+
+	#dropmenu li a {
+		font-size: 25px;
+	}
+
+	/*style of the sub menu*/
+	#dropmenu li ul li a {
+		padding: 13px 15px;
+		font-size: 15px;
+	}
+
+	/*action against touching the sub menu*/
+
+	#dropmenu li:hover ul li {
+		height: 41px;
+	}
+
+	/* monogatari style*/
+	.monogatari a {
+		font-size: 25px;
+		margin-top: 40%;
+		margin-left: 35%;
+		width: 30%;
+	}
+
+	/* repo style*/
+	.repo a {
+		font-size: 25px;
+		margin-top: 20%;
+		margin-left: 30%;
+		width: 40%;
+	}
+
+	/* LiveAndDie style*/
+	.LiveAndDie a {
+		font-size: 25px;
+		margin-top: 10%;
+		margin-left: 35%;
+		width: 30%;
+	}
+
+	/* net style*/
+	.net a {
+		font-size: 25px;
+		margin-top: 10%;
+		margin-left: 25%;
+		width: 50%;
+	}
+
+}
+
+/*pad*/
+@media screen and (max-width:1000px) {
+	.nikki-logo {
+		margin-left: 17%;
+	}
+
+	.nikki {
+		margin-left: 17%;
+		margin-right: 15%;
+	}
 
 }
