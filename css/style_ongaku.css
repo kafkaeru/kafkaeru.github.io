@@ -1,6 +1,7 @@
 body {
-	font-family: Meiryo;
+	font-family: "メイリオ", "Verdana", "Roboto", "Droid Sans", "游ゴシック", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "MS Pゴシック", sans-serif;
 	background-color: #fff;
+	min-height: 100vh;
 	margin: 0;
 }
 
@@ -10,54 +11,42 @@ li {
 
 .header {
 	background-color: #bbd4dc;
-	height: 600px;
+	height: 20vh;
 }
 
 .header-logo {
 	font-size: 30px;
 	color: rgb(255, 255, 255);
 	height: 50px;
-	padding: 20px 20px;
-    float:left
-
+	margin: 2% 5% 2% 5%;
+	padding-left: 1%;
+	float: left;
+	width: 90%;
 }
 
-.header-list a{
-    text-decoration: none;
-	float: right;
-	padding: 30px ;
+.header-list a {
+	text-decoration: none;
+	float: left;
+	margin: 0 5% 3% 5%;
 	color: rgb(134, 187, 169);
-	font-size: 20px
+	font-size: 20px;
+	text-align: center;
+	padding: 1%;
 }
 
-.header img {
-	height: 100px;
-	padding-top:200px;
-	padding-left:300px;
+.header-list a:hover {
+	background-color: #fff;
+	border-radius: 10%;
 }
+
 
 .main {
-	height: 200px;
-	background-color: bisque;
+	height: 70vh;
+	background-color: #bbd4dc;
 }
 
-.main-logo {
-	color: black;
-	font-size: 20px;
-	padding: 20px;
-}
 
 .footer {
-	height: 100px;
-	background-color: rgb(201, 176, 176);
-}
-
-.footer-list li {
-	font-size: 20px;
-	float: left;
-}
-
-.footer-logo {
-	font-size: 15px;
-	float: right;
+	height: 10vh;
+	background-color: #bbd4dc;
 }

@@ -25,13 +25,11 @@ a {
 	color: rgb(255, 255, 255);
 	height: 50px;
 	padding: 20px 20px;
-
 }
 
 .header img {
 	height: 100px;
-	padding-top: 100px;
-	padding-left: 300px;
+	margin: 10% 25%;
 }
 
 /*main style*/
@@ -40,7 +38,7 @@ a {
 	height: 40vh;
 }
 
-.main-list li{
+.main-list li {
 	text-align: center;
 }
 
@@ -58,8 +56,8 @@ a {
 	padding: 1%;
 }
 
-.main-list li:hover a{
-	background: rgb(99, 161, 141);
+.main-list li:hover a {
+	background: rgb(88, 201, 165);
 }
 
 /*footer style*/
@@ -69,10 +67,30 @@ a {
 }
 
 /*mobile devive style*/
-@media screen and (max-width:960px) {
-	.header-logo {
-		width: 100%;
-	}
-}
+/*phone*/
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:420px) {
+
+	.header img{
+		margin-left: 37.5%;
+	}
+
+	.main-list li a{
+		width: 70px;
+		height: 70px;
+		margin-right: 0;
+		margin-left: 11%;
+		font-size: 25px;
+		line-height: 2.8;
+	}
+
+	.header {
+		height: 35vh;
+	}
+
+	.footer{
+		height: 25vh;
+	}
+
+
+}
