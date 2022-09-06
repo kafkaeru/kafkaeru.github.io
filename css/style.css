@@ -1,6 +1,6 @@
 html,
 body {
-	font-family: "Meiryo";
+	font-family: "メイリオ", "Verdana", "Roboto", "Droid Sans", "游ゴシック", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "MS Pゴシック", sans-serif;
 	background-color: #fff;
 	min-height: 100vh;
 	margin: 0
@@ -79,7 +79,7 @@ a {
 		width: 70px;
 		height: 70px;
 		margin-right: 0;
-		margin-left: 11%;
+		margin-left: 10%;
 		font-size: 25px;
 		line-height: 2.8;
 	}
