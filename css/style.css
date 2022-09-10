@@ -44,6 +44,7 @@ a {
 
 .main-list a {
 	display: block;
+	position: relative;
 	float: left;
 	color: #fff;
 	background-color: rgb(113, 184, 160);
