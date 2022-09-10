@@ -160,6 +160,29 @@ a {
 	background-color: rgb(207, 171, 192);
 }
 
+.spoil {
+	display: none;
+}
+
+.higurashispoil input {
+	display: none;
+}
+
+.higurashispoil label {
+	cursor: pointer;
+	color: rgb(97, 165, 142);
+}
+
+.higurashispoil label:hover {
+	background-color: rgb(207, 171, 192);
+}
+
+.higurashispoil input:checked~.spoil {
+	display: inline;
+
+}
+
+
 #MovePage a {
 	background-color: rgb(134, 187, 169);
 	padding: 1%;
