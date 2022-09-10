@@ -224,6 +224,28 @@ a {
 	border-radius: 3px 50px 50px 3px;
 }
 
+/* hitikotoba style */
+.hitokotoba a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	margin-right: 5%;
+	float: right;
+	margin-top: 3%;
+	padding: 1%;
+	width: 50px;
+	border-radius: 50%;
+	height: 50px;
+	line-height: 5;
+	color: #fff;
+	background-color: #79c4b4;
+}
+
+.hitokotoba a:hover {
+	background-color: #58d3b8;
+}
+
 /* monogatari style */
 .monogatari a {
 	display: block;
