@@ -141,7 +141,6 @@ a {
 	font-size: 27px;
 	margin-left: 20%;
 	margin-top: 5%;
-
 }
 
 .nikki {
@@ -244,6 +243,19 @@ a {
 
 .hitokotoba a:hover {
 	background-color: #58d3b8;
+}
+
+.hitokotoba-logo {
+	font-size: 27px;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+#hitokotoba {
+	font-size: 15px;
+	margin-left: 40%;
+	margin-right: 10%;
+	line-height: 300px;
 }
 
 /* monogatari style */
