@@ -278,6 +278,44 @@ a {
 	background-color: #ee88cf;
 }
 
+/* monogatari1 style */
+.monogatari1 a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 10%;
+	margin-left: 35.5%;
+	padding: 1%;
+	width: 30%;
+	line-height: 1.8;
+	color: rgb(82, 82, 82);
+	background-color: #ffffff;
+	border-left: #e79ad0 solid 5px;
+	border-right: #e79ad0 solid 5px;
+	border-radius: 200px;
+}
+
+.monogatari1 a:hover {
+	background-color: #e79ed1;
+}
+
+.monogatari-logo{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5%;
+	margin-left: 35%;
+	padding: 1%;
+	width: 30%;
+	line-height: 1.8;
+	color: rgb(0, 0, 0);
+	background-color: #ffffff;
+	border-left: #e79ad0 solid 10px;
+	border-right: #e79ad0 solid 10px;
+	border-radius: 200px;
+}
 
 /* repo style */
 .repo a {
