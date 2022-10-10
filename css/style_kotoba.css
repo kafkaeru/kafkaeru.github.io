@@ -159,28 +159,27 @@ a {
 	background-color: rgb(207, 171, 192);
 }
 
-.spoil {
+.hidden {
 	display: none;
 }
 
-.higurashispoil input {
+.hidden-main input {
 	display: none;
 }
 
-.higurashispoil label {
+.hidden-main label {
 	cursor: pointer;
 	color: rgb(97, 165, 142);
 }
 
-.higurashispoil label:hover {
+.hidden-main label:hover {
 	background-color: rgb(207, 171, 192);
 }
 
-.higurashispoil input:checked~.spoil {
+.hidden-main input:checked~.hidden {
 	display: inline;
 
 }
-
 
 #MovePage a {
 	background-color: rgb(134, 187, 169);
@@ -278,8 +277,25 @@ a {
 	background-color: #ee88cf;
 }
 
-/* monogatari1 style */
-.monogatari1 a {
+.monogatari-logo {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5%;
+	margin-left: 35%;
+	padding: 1%;
+	width: 30%;
+	line-height: 1.8;
+	color: rgb(0, 0, 0);
+	background-color: #ffffff;
+	border-left: #e79ad0 solid 10px;
+	border-right: #e79ad0 solid 10px;
+	border-radius: 200px;
+}
+
+/* monogatari01 style */
+.monogatari01 a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -296,25 +312,8 @@ a {
 	border-radius: 200px;
 }
 
-.monogatari1 a:hover {
+.monogatari01 a:hover {
 	background-color: #e79ed1;
-}
-
-.monogatari-logo{
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	font-size: 30px;
-	margin-top: 5%;
-	margin-left: 35%;
-	padding: 1%;
-	width: 30%;
-	line-height: 1.8;
-	color: rgb(0, 0, 0);
-	background-color: #ffffff;
-	border-left: #e79ad0 solid 10px;
-	border-right: #e79ad0 solid 10px;
-	border-radius: 200px;
 }
 
 /* repo style */
@@ -356,7 +355,6 @@ a {
 .LiveAndDie a:hover {
 	background-color: #a2da8d;
 }
-
 
 /* net style */
 .net a {
@@ -454,10 +452,22 @@ a {
 
 	/* monogatari style*/
 	.monogatari a {
-		font-size: 25px;
 		margin-top: 40%;
-		margin-left: 35%;
-		width: 30%;
+	}
+
+	.monogatari-logo {
+		margin-top: 5%;
+		padding: 1%;
+		width: 50%;
+		margin-left: 24%;
+	}
+
+	/* monogatari01 style */
+	.monogatari01 a {
+		margin-top: 10%;
+		padding: 1%;
+		margin-left: 15%;
+		width: 70%;
 	}
 
 	/* repo style*/
@@ -497,4 +507,23 @@ a {
 		margin-right: 15%;
 	}
 
+	/* monogatari style*/
+	.monogatari-logo {
+		margin-top: 5%;
+		padding: 1%;
+		width: 50%;
+		margin-left: 24%;
+	}
+
+	/* monogatari01 style */
+	.monogatari01 a {
+		margin-top: 10%;
+		padding: 1%;
+		margin-left: 30%;
+		width: 40%;
+	}
+
+	#dropmenu {
+		margin-top: 15%;
+	}
 }
