@@ -339,8 +339,8 @@ a {
 
 	.nikki {
 		font-size: 14px;
-		margin-left: 2%;
-		margin-right: 2%;
+		margin-left: 5%!important;
+		margin-right: 5%!important;
 		line-height: 50px;
 	}
 
@@ -406,6 +406,20 @@ a {
 	/* monogatari01 style */
 	.monogatari01 a {
 		font-size: 16px;
+	}
+
+	.hitokotoba-logo {
+		font-size: 27px;
+		margin-left: 30%;
+		margin-top: 10%;
+	}
+	
+	/* hitokotoba style */
+	#hitokotoba {
+		font-size: 15px;
+		margin-left: 30%;
+		margin-right: 10%;
+		line-height: 300px;
 	}
 }
 
