@@ -294,8 +294,7 @@ a {
 	border-radius: 200px;
 }
 
-/* monogatari01 style */
-.monogatari01 a {
+.monogatari-title a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -312,7 +311,7 @@ a {
 	border-radius: 200px;
 }
 
-.monogatari01 a:hover {
+.monogatari-title a:hover {
 	background-color: #e79ed1;
 }
 
