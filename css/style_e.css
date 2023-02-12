@@ -58,6 +58,16 @@ li {
 	width: 19.5%;
 }
 
+
+#e-main img{
+	display: block;
+	max-height: 90vh;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
 .footer {
 	height: 0vh;
 	background-color: #bbd4dc;
