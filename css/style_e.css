@@ -14,6 +14,7 @@ li {
 .header {
 	background-color: #bbd4dc;
 	height: 10%;
+	margin-bottom: 1%;
 }
 
 .header-logo {
@@ -45,30 +46,38 @@ li {
 .main {
 	background-color: #fff;
 	flex: 1;
-	margin-top: 0.7%;
-	margin-left: 1.2%;
+	text-align: center;
 }
 
 .main a {
 	text-decoration: none;
-	text-align: center;
+	
 }
 
 .main a img{
-	width: 19.5%;
+	display: inline-block;
+	margin: auto;
+	width: 30%;
+	max-height: 90vh;
 }
 
 
 #e-main img{
 	display: block;
 	max-height: 90vh;
+	max-width: 100%;
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
+#e-main {
+	font-size: 10pt;
+	font: "メイリオ";
+}
+
 
 .footer {
-	height: 0vh;
-	background-color: #bbd4dc;
+	height: 5vh;
+	background-color: #fff;
 }
