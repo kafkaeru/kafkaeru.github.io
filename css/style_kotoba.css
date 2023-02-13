@@ -263,8 +263,8 @@ a {
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
-	margin-top: 25%;
-	margin-left: 35%;
+	margin: auto;
+	margin-top: 30%;
 	padding: 1%;
 	width: 30%;
 	line-height: 1.8;
@@ -282,8 +282,6 @@ a {
 	text-decoration: none;
 	text-align: center;
 	font-size: 30px;
-	margin-top: 5%;
-	margin-left: 35%;
 	padding: 1%;
 	width: 30%;
 	line-height: 1.8;
@@ -299,8 +297,8 @@ a {
 	text-decoration: none;
 	text-align: center;
 	font-size: 17px;
+	margin: auto;
 	margin-top: 10%;
-	margin-left: 35.5%;
 	padding: 1%;
 	width: 30%;
 	line-height: 1.8;
