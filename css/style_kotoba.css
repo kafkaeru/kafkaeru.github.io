@@ -279,11 +279,13 @@ a {
 
 .monogatari-logo {
 	display: block;
+	margin: auto;
+	margin-top: 2%;
 	text-decoration: none;
 	text-align: center;
 	font-size: 30px;
 	padding: 1%;
-	width: 30%;
+	max-width: 50%;
 	line-height: 1.8;
 	color: rgb(0, 0, 0);
 	background-color: #ffffff;
@@ -300,7 +302,7 @@ a {
 	margin: auto;
 	margin-top: 10%;
 	padding: 1%;
-	width: 30%;
+	max-width: 80%;
 	line-height: 1.8;
 	color: rgb(82, 82, 82);
 	background-color: #ffffff;
@@ -394,10 +396,10 @@ a {
 	}
 
 	.monogatari-logo {
+		display: block;
+		margin: auto;
 		margin-top: 5%;
 		padding: 1%;
-		width: 50%;
-		margin-left: 24%;
 	}
 
 	/* monogatari01 style */
@@ -433,10 +435,10 @@ a {
 
 	/* monogatari style*/
 	.monogatari-logo {
+		margin: auto;
 		margin-top: 5%;
 		padding: 1%;
 		width: 50%;
-		margin-left: 24%;
 	}
 
 	/* monogatari01 style */
