@@ -62,7 +62,7 @@ a {
 	position: relative;
 	float: left;
 	text-align: center;
-	width: 40%;
+	width: 30%;
 }
 
 #dropmenu li a {
@@ -374,11 +374,11 @@ a {
 	}
 
 	#dropmenu li {
-		width: 40%;
+		width: 25%;
 	}
 
 	#dropmenu li a {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	/*style of the sub menu*/
